@@ -9,7 +9,7 @@ public class ButtonSettings extends JButton implements ActionListener{
 
     ButtonSettings(){
         setText("Настройки");
-        setIcon(new ImageIcon("icoSettings32x32.png"));
+        setIcon(new ImageIcon("src\\resources\\icoSettings32x32.png"));
         setPreferredSize(new Dimension(MainFrame.buttonsWidth, MainFrame.buttonsHeight));
         addActionListener(this);
     }

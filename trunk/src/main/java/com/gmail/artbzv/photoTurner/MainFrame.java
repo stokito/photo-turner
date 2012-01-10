@@ -164,7 +164,7 @@ public class MainFrame extends JFrame{
             photoLabel.addMouseListener(photoIconMouseListener);
             photoesPane.add(photoLabel);
 
-            JLabel closePhotoButton = new JLabel(new ImageIcon("icoClose32x32.png"));
+            JLabel closePhotoButton = new JLabel(new ImageIcon("src\\resources\\icoClose32x32.png"));
             closePhotoButton.setSize(20,20);
             closePhotoButton.setLocation(photoLabel.getWidth() - closePhotoButton.getWidth(), 0);
             closePhotoButton.setVisible(false);

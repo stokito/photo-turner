@@ -9,7 +9,7 @@ public class ButtonApply extends JButton implements ActionListener {
 
     public ButtonApply(){
         setText("Применить");
-        setIcon(new ImageIcon("classpath:icoApply16x16.png"));
+        setIcon(new ImageIcon("src\\resources\\icoApply16x16.png"));
         setPreferredSize(new Dimension(SettingsFrame.buttonsWidth, SettingsFrame.buttonsHeight));
         addActionListener(this);
     }

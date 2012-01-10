@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 public class ButtonTurnAllRight extends JButton implements ActionListener {
 
     ButtonTurnAllRight(){
-        setIcon(new ImageIcon("icoRotateRight32x32.png"));
+        setIcon(new ImageIcon("src\\resources\\icoRotateRight32x32.png"));
         setPreferredSize(new Dimension(MainFrame.buttonsHeight, MainFrame.buttonsHeight));
         addActionListener(this);
     }

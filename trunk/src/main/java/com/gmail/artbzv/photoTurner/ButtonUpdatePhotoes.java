@@ -9,7 +9,7 @@ public class ButtonUpdatePhotoes extends JButton implements ActionListener{
 
     ButtonUpdatePhotoes(){
         setText("<html>Обновить <p>фотки");
-        setIcon(new ImageIcon("icoRefresh32x32.png"));
+        setIcon(new ImageIcon("src\\resources\\icoRefresh32x32.png"));
         setPreferredSize(new Dimension(MainFrame.buttonsWidth, MainFrame.buttonsHeight));
         addActionListener(this);
     }
