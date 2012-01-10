@@ -2,11 +2,11 @@ package com.gmail.artbzv.photoTurner;
 
 public class GlobalData {
 
-
-       public static SettingsFrame settingsFrame;
+    public static MainFrame mainFrame;
+    public static SettingsFrame settingsFrame;
     public static PhotoCollection photoCollection;
 
-    public int imageWidth = 100;
+    public static int imageWidth = 100;
     public static int imageHeight = 100;
 
     public static int gapBetweenLabels = 5;
