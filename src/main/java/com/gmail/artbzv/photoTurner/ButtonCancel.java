@@ -9,7 +9,7 @@ public class ButtonCancel extends JButton implements ActionListener {
 
     ButtonCancel(){
         setText("Отмена");
-        setIcon(new ImageIcon("icoCancel16x16.png"));
+        setIcon(new ImageIcon("src\\resources\\icoCancel16x16.png"));
         setPreferredSize(new Dimension(SettingsFrame.buttonsWidth, SettingsFrame.buttonsHeight));
         addActionListener(this);
     }

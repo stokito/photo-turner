@@ -9,7 +9,7 @@ public class ButtonSaveChanges extends JButton implements ActionListener{
 
     ButtonSaveChanges(){
         setText("<html>Сохранить <p> изменения");
-        setIcon(new ImageIcon("icoSave32x32.png"));
+        setIcon(new ImageIcon("src\\resources\\icoSave32x32.png"));
         setPreferredSize(new Dimension(MainFrame.buttonsWidth, MainFrame.buttonsHeight));
         addActionListener(this);
     }

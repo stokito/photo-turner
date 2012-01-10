@@ -9,7 +9,7 @@ public class ButtonOK extends JButton implements ActionListener {
 
     ButtonOK(){
         setText("ОК");
-        setIcon(new ImageIcon("icoOk16x16.png"));
+        setIcon(new ImageIcon("src\\resources\\icoOk16x16.png"));
         setPreferredSize(new Dimension(SettingsFrame.buttonsWidth, SettingsFrame.buttonsHeight));
         addActionListener(this);
     }

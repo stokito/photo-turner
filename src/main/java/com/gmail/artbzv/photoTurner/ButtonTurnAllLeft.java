@@ -8,7 +8,7 @@ import java.awt.event.ActionListener;
 public class ButtonTurnAllLeft extends JButton implements ActionListener {
 
     ButtonTurnAllLeft(){
-        setIcon(new ImageIcon("icoRotateLeft32x32.png"));
+        setIcon(new ImageIcon("src\\resources\\icoRotateLeft32x32.png"));
         setPreferredSize(new Dimension(MainFrame.buttonsHeight, MainFrame.buttonsHeight));
         addActionListener(this);
     }

@@ -9,7 +9,7 @@ public class ButtonClearAll extends JButton implements ActionListener{
 
     ButtonClearAll(){
         setText("<html>Очистить <p> все");
-        setIcon(new ImageIcon("icoClear32x32.png"));
+        setIcon(new ImageIcon("src\\resources\\icoClear32x32.png"));
         setPreferredSize(new Dimension(MainFrame.buttonsWidth, MainFrame.buttonsHeight));
         addActionListener(this);
     }
