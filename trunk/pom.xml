@@ -15,25 +15,6 @@
     </properties>
 
     <build>
-        <!--<resources>-->
-            <!--<resource>-->
-                <!--<directory>h:\IdeaProjects\PhotoTurner\PhotoTurner\</directory>-->
-                <!--<includes>-->
-                    <!--<include>icoAdd32x32.png</include>-->
-                    <!--<include>icoApply16x16.png</include>-->
-                    <!--<include>icoCancel16x16.png</include>-->
-                    <!--<include>icoClear32x32.png</include>-->
-                    <!--<include>icoClose32x32.png</include>-->
-                    <!--<include>icoLoadError300x300.png</include>-->
-                    <!--<include>icoOk16x16.png</include>-->
-                    <!--<include>icoRefresh32x32.png</include>-->
-                    <!--<include>icoRotateLeft32x32.png</include>-->
-                    <!--<include>icoRotateRight32x32.png</include>-->
-                    <!--<include>icoSave32x32.png</include>-->
-                    <!--<include>icoSettings32x32.png</include>-->
-                <!--</includes>-->
-            <!--</resource>-->
-        <!--</resources>-->
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
