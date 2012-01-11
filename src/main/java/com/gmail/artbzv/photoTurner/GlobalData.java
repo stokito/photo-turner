@@ -15,8 +15,8 @@ public class GlobalData {
 
     public static CompressionMode compressionMode = CompressionMode.SaveSize;
 
-    public static String startDirectory //= "g:\\ФотоТест\\";
-                                        = "H:\\ФотоТест\\";
+    public static String startDirectory = "g:\\ФотоТест\\";
+                                        //= "H:\\ФотоТест\\";
 
     enum CompressionMode{
         SaveSize(0.98f, "Сохранять размер файла"),
