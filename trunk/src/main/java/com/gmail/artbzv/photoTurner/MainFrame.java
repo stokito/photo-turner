@@ -3,6 +3,7 @@ package com.gmail.artbzv.photoTurner;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.net.URL;
 import java.util.*;
 
 public class MainFrame extends JFrame{
@@ -164,7 +165,12 @@ public class MainFrame extends JFrame{
             photoLabel.addMouseListener(photoIconMouseListener);
             photoesPane.add(photoLabel);
 
-            JLabel closePhotoButton = new JLabel(new ImageIcon("src\\resources\\icoClose32x32.png"));
+            JLabel closePhotoButton = new JLabel();
+
+            ClassLoader cldr = this.getClass().getClassLoader();
+            URL imageUrl = cldr.getResource("icoClose32x32.png");
+            closePhotoButton.setIcon(new ImageIcon(imageUrl));
+
             closePhotoButton.setSize(20,20);
             closePhotoButton.setLocation(photoLabel.getWidth() - closePhotoButton.getWidth(), 0);
             closePhotoButton.setVisible(false);

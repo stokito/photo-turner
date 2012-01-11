@@ -4,11 +4,16 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.net.URL;
 
 public class ButtonTurnAllRight extends JButton implements ActionListener {
 
     ButtonTurnAllRight(){
-        setIcon(new ImageIcon("src\\resources\\icoRotateRight32x32.png"));
+
+        ClassLoader cldr = this.getClass().getClassLoader();
+        URL imageUrl = cldr.getResource("icoRotateRight32x32.png");
+        setIcon(new ImageIcon(imageUrl));
+
         setPreferredSize(new Dimension(MainFrame.buttonsHeight, MainFrame.buttonsHeight));
         addActionListener(this);
     }

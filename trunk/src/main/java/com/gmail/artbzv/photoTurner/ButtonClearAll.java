@@ -4,12 +4,17 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.net.URL;
 
 public class ButtonClearAll extends JButton implements ActionListener{
 
     ButtonClearAll(){
         setText("<html>Очистить <p> все");
-        setIcon(new ImageIcon("src\\resources\\icoClear32x32.png"));
+
+        ClassLoader cldr = this.getClass().getClassLoader();
+        URL imageUrl = cldr.getResource("icoClear32x32.png");
+        setIcon(new ImageIcon(imageUrl));
+
         setPreferredSize(new Dimension(MainFrame.buttonsWidth, MainFrame.buttonsHeight));
         addActionListener(this);
     }
