@@ -23,7 +23,7 @@
                     <archive>
                         <manifest>
                             <mainClass>com.gmail.artbzv.photoTurner.GlobalData</mainClass>
-                            <packageName>com.gmail.artbzv.photoTurner</packageName>-->
+                            <packageName>com.gmail.artbzv.photoTurner</packageName>
                         </manifest>
                     </archive>
                 </configuration>
